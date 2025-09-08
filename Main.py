@@ -11,11 +11,11 @@ x = int(input("Digite um número:"))
 y = int(input("Digite outro número:"))
 
 if UserChoice == 1:
-    resposta = x + y
+    resposta = Number1 + Number2
 elif UserChoice == 2:
-    resposta = x * y
+    resposta = Number1 * Number2
 elif UserChoice == 3:
-    resposta = x - y
+    resposta = Number1 - Number2
 
 print(resposta)    
 
