@@ -5,9 +5,25 @@ Number1 = int(input("Digite o primeiro número que você quer manipular: "))
 Number2 = int(input("Digite o segundo numero que você quer manipular: "))
 ## print(UserChoice)
 
+## Atividade aula
+
+x = int(input("Digite um número:"))
+y = int(input("Digite outro número:"))
+
+if UserChoice == 1:
+    resposta = x + y
+elif UserChoice == 2:
+    resposta = x * y
+elif UserChoice == 3:
+    resposta = x - y
+
+print(resposta)    
+
+
 
 def somar (a,b):
     return a + b
 
 if (UserChoice == 1):
     print (f"soma = {somar(Number1, Number2)}")
+
