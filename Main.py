@@ -1,6 +1,6 @@
 ## Atividade aula
 
-UserChoice = int(input("Digite a operação que você quer (1 - soma, 2 - multiplicação, 3 - subtração): "))
+UserChoice = int(input("Digite a operação que você quer (1 - soma, 2 - multiplicação, 3 - subtração, 4 - divisão): "))
 Number1 = int(input("Digite o primeiro número que você quer manipular: "))
 Number2 = int(input("Digite o segundo numero que você quer manipular: "))
 ## print(UserChoice)
@@ -24,6 +24,10 @@ print(resposta)
 def somar (a,b):
     return a + b
 
+def dividir (a,b):
+    return a / b
+
 if (UserChoice == 1):
     print (f"soma = {somar(Number1, Number2)}")
-
+if (UserChoice == 4):
+    print(f"divisão = {dividir(Number1, Number2)}")
