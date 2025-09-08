@@ -1,6 +1,8 @@
 ## Relatório
 ## Histórico de commit
+
 @luiztcn78 ➜ /workspaces/AtividadeAula (main) $ git log --oneline
+
 fbbb95b (HEAD -> main) mensagem importante
 7bd92f4 ADD feat: Multiplicação
 0fd6b6c (tag: v1.4, tag: v1.3) Att de variáveis
