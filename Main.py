@@ -7,9 +7,6 @@ Number2 = int(input("Digite o segundo numero que você quer manipular: "))
 
 ## Atividade aula
 
-x = int(input("Digite um número:"))
-y = int(input("Digite outro número:"))
-
 if UserChoice == 1:
     resposta = Number1 + Number2
 elif UserChoice == 2:
