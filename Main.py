@@ -27,7 +27,14 @@ def somar (a,b):
 def dividir (a,b):
     return a / b
 
+def multiplicar (a,b):
+    return a * b
+
+
 if (UserChoice == 1):
     print (f"soma = {somar(Number1, Number2)}")
 if (UserChoice == 4):
     print(f"divisão = {dividir(Number1, Number2)}")
+if (UserChoice == 2):
+    print(f"multiplicação {multiplicar(Number1, Number2)}")
+
