@@ -1,6 +1,6 @@
 ## Atividade aula
 
-UserChoice = (input("Digite a operação que você quer (1 - soma, 2 - multiplicação, 3 - subtração, 4 - divisão): "))
+UserChoice = int(input("Digite a operação que você quer (1 - soma, 2 - multiplicação, 3 - subtração, 4 - divisão): "))
 Number1 = int(input("Digite o primeiro número que você quer manipular: "))
 Number2 = int(input("Digite o segundo numero que você quer manipular: "))
 ## print(UserChoice)
